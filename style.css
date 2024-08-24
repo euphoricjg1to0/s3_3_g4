@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    background-image: url("images/forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow:
+    1.5px 1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    -1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000;
+}
+.pet-status {
+    margin-bottom: 20px;
+}
+.pet-image img{
+    max-width: 200px;
+    height: auto;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+footer {
+    align-items: center;
+    color: whitesmoke;
+    line-height: 3;
+}
